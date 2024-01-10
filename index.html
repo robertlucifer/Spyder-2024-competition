@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            text-decoration: none;
+            transition: 1s ease-out;
+            font-family: sans-serif;
+        }
+        .navbar{
+            background-color:   #11009E;
+            border-radius: 10px;
+        }
+        .entire{
+            display:flex;
+            justify-content: space-between;  
+            align-items: center;
+        }
+        .list li{
+            display: inline;
+        }
+        .list li a{
+           margin:0 10px;
+           font-size:20px;
+           padding: 10px 20px;
+           color:#FAE7F3;
+        }
+        .list li a:hover{
+           background: black;
+           color: white;
+           border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+       <div class="entire">
+        <div>
+            <h1 style="font-size: 32px; padding:20px 10px; color:white; margin: 0 20px;"><a href="#" style="color:white;">Travel India</a></h1>
+        </div>
+                <ul class="list"style="list-style:none; ;">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#spot">Tourist Palace </a></li>
+                    <li><a href="#food">Food items</a></li>
+                    <li><a href="">List</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+    </nav>
+    <div stlye="position:relative;">
+        <div style="position:absolute; width:100px; height:20px; color:aquamarine"></div>
+        <img src="images/7.jpg" style="width:500px; position:absolute; top:150px; left:150px;">
+        <h2 style="position:absolute; top:180px; left: 700px; font-size: 38px;;">Importance of Tourism</h2>
+        <p style="position:absolute; top:240px; left: 700px; font-size: 24px;line-height: 30px;;">Tourism in India is 4.6% of the country's gross domestic product (GDP). Unlike other  sectors, tourism is not a priority sector for the Government of India. Forbes magazine ranked India as the 7th most beautiful country in 'The 50 Most Beautiful Countries In The World' rankings.[1] The World Travel and Tourism Council calculated that tourism generated ₹13.2 lakh crore (US$170 billion) or 5.8% of India's GDP and supported 32.1 million jobs in 2021. Even though, these numbers were lower than the pre-pandemic figures; the country's economy witnessed a significant growth in 2021 after the massive downturn during 2020. The sector is predicted to grow at an annual rate of 7.8% to ₹33.8 lakh crore (US$420 billion) by 2031 (7.2% of GDP).[2] India has established itself as the 5th largest global travel healthcare destination with an estimated market size of around $9 billion in 2019, out of the total global travel healthcare industry of $44.8 billion(2019).[3][4] In 2014, 184,298 foreign patients travelled to India to seek medical treatment.</p>
+    </div>
+    <div>
+        <h1 id="spot" style="position: absolute; top:850px; left:600px;">Tourist Hotspots in India</h1>
+        <div style="position: absolute; background: #7BD3EA; width: 280px; height:450px; top:1000px; left:200px; border-radius: 10px;;">
+            <img src="images/1.jpg" style="position: absolute; width: 250px; top:10px; left:15px; border-radius: 10px; z-index: 5;">
+            <p style="position: absolute; top:180px; left:15px;font-size: 20px;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arulmigu Meenakshi Sundaraswarar Temple a.k.a Arulmigu Meenakshi Amman Thirukkovil is a historic Hindu temple located on the southern bank of the Vaigai River in the temple city of Madurai, Tamil Nadu, India</p>
+        </div>
+        <div style="position: relative; background: #7BD3EA; width: 280px; height:450px; top:905px; left:500px; border-radius: 10px;;">
+            <img src="images/Untitled.jpg" style="position: absolute; width: 250px; top:10px; left:15px; border-radius: 10px; z-index: 5;">
+            <p style="position: absolute; top:180px; left:15px;font-size: 20px;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Taj Mahal 'Crown of the Palace' is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India. It was commissioned in 1631 by the fifth Mughal emperor, Shah Jahan .</p>
+        </div>
+        <div style="position: absolute; background: #7BD3EA; width: 280px; height:450px; top:1000px; left:800px; border-radius: 10px;;">
+            <img src="images/6.jpg" style="position: absolute; width: 250px; top:10px; left:15px; border-radius: 10px; z-index: 5;">
+            <p style="position: absolute; top:180px; left:15px;font-size: 20px;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Darjeeling, Nepali: is a city in the northernmost region of the Indian state of West Bengal. Located in the Eastern Himalayas, it has an average elevation of 2,045 metres (6,709 ft).[10] To the west of Darjeeling lies the easternmost province of Nepal, </p>
+        </div>
+        <div style="position: absolute; background: #7BD3EA; width: 280px; height:450px; top:1000px; left:1100px; border-radius: 10px;;">
+            <img src="images/2.jpg" style="position: absolute; width: 250px; top:10px; left:15px; border-radius: 10px; z-index: 5;">
+            <p style="position: absolute; top:180px; left:15px;font-size: 20px;;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Velankanni , is a Special Grade Panchayat Town in Nagapattinam district in the Indian state of Tamil Nadu. It lies on the Coromandel Coast of the Bay of Bengal, 350 km south of Chennai (Madras), 12 km south of Nagapattinam, and 33 km southeast of Thiruvarur.
+                </p>
+        </div>
+    </div>
+    <div style="position: relative;">
+        <h1 style="position: absolute; top:1100px; left:600px;" id="food">Food Items in India</h1>
+        <img src="images/food2.jpg" style="width:400px; position: absolute; top:1200px; left:150px; border-radius: 10px;">
+        <p style="position: absolute; top:1200px; left:650px; right:80px;font-size: 26px;">India is well known for its food items with taste and flavor of spicies and medinices.The main differences are largely divided into South Indian and North Indian cuisine. A lot of the northern regions of India are vegetarian, and therefore many of the most inspiring vegetable dishes originate from the northern states. Staple ingredients in Indian cooking include rice, tomatoes, potatoes, lentils, chickpeas, onions and yoghurt, and the most common spices used to flavor authentic Indian food include turmeric, cumin, coriander, mustard seeds, cardamom, chili, garlic, cloves, saffron, fennel, nutmeg, star anise, and fenugreek.
+
+            In the same way that food influences traveled to India, Indian cuisine has also traveled overseas. Particular dishes have gained esteem and have trickled into cuisines all over the world, however for the most authentic of flavors and dining experiences, these dishes should really be tried in situ in their destination of origin.</p>
+    </div>
+    <div style="position: relative;">
+        <h1 style="position: absolute; top:1900px; left:600px;">Travel modes in India</h1>
+        <img src="images/TAVREL.jpg" alt="" style="width:600px; position: absolute; top:2000px; left:150px; border-radius: 10px;">
+        <p >
+            
+            <ul style="position: absolute; top:2000px; left:950px; right:80px;font-size: 26px; line-height: 50px;;">
+                <p >India has all modes of transport which attracts people to explore,</p>
+                <li>Bicycles</li>
+                <li>Road</li>
+                <li>Rail</li>
+                <li>Toggle Rail subsection</li>
+                <li>Airways</li>
+                <li>Water</li>
+                <li>Cable</li>
+
+            </ul>
+            </p>
+    </div>
+    <div  style="position: relative;">
+        <h1 id="contact" style="position: absolute; top:2500px; left:700px;">Contact us</h1>
+        <p style="position: absolute; top:2600px; left:450px; font-size: 26px;;">To experiences the pleasurefull travel contact Travel India</p>
+        <form style="position: absolute; top:2700px; left:450px; font-size: 26px;">
+            <p>Name:<input type="text"></p>
+            <br>
+            <p>Email:<input type="text" ></p>
+            <br>
+            <p>Country:<input type="text"></p>
+            <br>
+            <p>Mobile no:<input type="text"></p>
+            <button >Submit</button>
+        </form>
+    </div>
+</body>
+</html>
